@@ -1,0 +1,129 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(146, 145, 74, 0.2);
+}
+
+a {
+  text-decoration: none;
+}
+
+.tudo {
+  display: flex;
+  justify-content: space-around;
+  background: #f7f7f7;
+}
+
+.home {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.home a {
+  display: inline-block;
+  background: #c2be6f5d;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.content {
+  margin-top: 5px;
+  background: rgba(75, 68, 15, 0.705);
+  display: flex;
+  border-radius: 4px;
+  margin: 5px 50px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.itens {
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 15px 80px;
+  border-radius: 4px;
+}
+.cafes a{
+  text-decoration: none;
+  color: rgba(190, 187, 178, 0.993)
+}
+
+.baixo {
+  font-size: 10px;
+  color: #3a3319;
+}
+
+p {
+  font-size: 14px;
+  color: #111;
+} 
+
+.cafe2 {
+  width: 80px;
+}
+
+.cafe1 {
+  width: 50px;
+  position: relative;
+  display: block;
+  left: 280px;
+  bottom: -10px;
+}
+
+.sub {
+  margin-top: 5px;
+  background: rgba(75, 68, 15, 0.705);
+  display: flex;
+  border-radius: 4px;
+  margin: 5px 50px;
+}
+
+.sub1 {
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 15px 80px;
+  border-radius: 4px;
+}
+
+.mee {
+  display: flex;
+  gap: 50px;
+}
+
+.tipos img{
+  width: 60px;
+ }
+
+.tipos p {
+  font-size: 10px;
+  color: rgba(190, 190, 186, 0.993)
+}
+
+.tipos {
+  padding:20px;
+}
+
+.tudo {
+  background: linear-gradient(45deg, #474521, #75663d, #726735, #2f2e15);
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+} 
+
